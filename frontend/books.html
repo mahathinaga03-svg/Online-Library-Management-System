@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Books</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>Online Library Management System</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="register.html">Register</a>
+<a href="login.html">Login</a>
+<a href="books.html">Books</a>
+<a href="issue.html">Issue Book</a>
+<a href="return.html">Return Book</a>
+</nav>
+<div class="container">
+<h2>Books</h2>
+<h3>Add Book</h3>
+<input id="title" placeholder="Book Title">
+<input id="author" placeholder="Author">
+<input id="category" placeholder="Category">
+<input id="isbn" placeholder="ISBN">
+<input id="quantity" type="number" placeholder="Quantity">
+<button onclick="addBook()">Add Book</button>
+<h3>Available Books</h3>
+<table><thead><tr><th>ID</th><th>Title</th><th>Author</th><th>Category</th><th>Qty</th></tr></thead><tbody id="bookTable"></tbody></table>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

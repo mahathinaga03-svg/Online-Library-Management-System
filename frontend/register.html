@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><h1>Online Library Management System</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="register.html">Register</a>
+<a href="login.html">Login</a>
+<a href="books.html">Books</a>
+<a href="issue.html">Issue Book</a>
+<a href="return.html">Return Book</a>
+</nav>
+<div class="container">
+<h2>User Registration</h2>
+<input id="name" placeholder="Full Name">
+<input id="email" placeholder="Email">
+<input id="password" type="password" placeholder="Password">
+<select id="role"><option>STUDENT</option><option>LIBRARIAN</option></select>
+<button onclick="registerUser()">Register</button>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
